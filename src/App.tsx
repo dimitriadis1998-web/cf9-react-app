@@ -1,6 +1,6 @@
-import FunctionalComponent from "./components/FunctionalComponent.tsx";
-import ClassComponent from "./components/ClassComponent.tsx";
-import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
+import FunctionalComponent from "./components/LesssonTwo/FunctionalComponent.tsx";
+import ClassComponent from "./components/LesssonTwo/ClassComponent.tsx";
+import ArrowFunctionalComponent from "./components/LesssonTwo/ArrowFunctionalComponent.tsx";
 
 function App() {
 

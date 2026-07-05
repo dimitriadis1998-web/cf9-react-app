@@ -3,9 +3,12 @@
 // import ClassComponent from "./components/LesssonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LesssonTwo/ArrowFunctionalComponent.tsx";
 import Layout from "./components/Layout.tsx";
-import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
+// import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
 // import Counter from "./components/LessonFour/Counter.tsx";
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
+import NameChanger from "./components/LessonFive/NameChanger.tsx";
+
+
 
 // type PropsA = {
 //   title :string,
@@ -82,17 +85,21 @@ function App() {
 
 
 
+        {/*<Layout>*/}
+        {/*    /!*<ArrowFunctionalComponentWithProps*!/*/}
+        {/*    /!*    title="Second Title"*!/*/}
+        {/*    /!*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum cupiditate dolorem*!/*/}
+        {/*    /!*    earum inventore labore nemo, unde voluptate. Explicabo, voluptatum!" />*!/*/}
+        {/*    /!*<p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa debitis dolore ea excepturi illo illum itaque laborum molestias,*!/*/}
+        {/*    /!*    necessitatibus nisi obcaecati perspiciatis quos reprehenderit sunt, tempora tenetur totam ut?</p>*!/*/}
+        {/*    /!*C*!/*/}
+        {/*    /!*<Counter/>*!/*/}
+        {/*    /!*<ClassCounter/>*!/*/}
+        {/*    <CounterAdvanced/>*/}
+        {/*</Layout>*/}
+
         <Layout>
-            {/*<ArrowFunctionalComponentWithProps*/}
-            {/*    title="Second Title"*/}
-            {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum cupiditate dolorem*/}
-            {/*    earum inventore labore nemo, unde voluptate. Explicabo, voluptatum!" />*/}
-            {/*<p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa debitis dolore ea excepturi illo illum itaque laborum molestias,*/}
-            {/*    necessitatibus nisi obcaecati perspiciatis quos reprehenderit sunt, tempora tenetur totam ut?</p>*/}
-            {/*C*/}
-            {/*<Counter/>*/}
-            {/*<ClassCounter/>*/}
-            <CounterAdvanced/>
+            <NameChanger/>
         </Layout>
 
 

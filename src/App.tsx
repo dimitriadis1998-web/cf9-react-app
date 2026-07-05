@@ -81,10 +81,10 @@ function App() {
 
 
         <Layout>
-            <ArrowFunctionalComponentWithProps
-                title="Second Title"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum cupiditate dolorem
-                earum inventore labore nemo, unde voluptate. Explicabo, voluptatum!" />
+            {/*<ArrowFunctionalComponentWithProps*/}
+            {/*    title="Second Title"*/}
+            {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum cupiditate dolorem*/}
+            {/*    earum inventore labore nemo, unde voluptate. Explicabo, voluptatum!" />*/}
             <p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa debitis dolore ea excepturi illo illum itaque laborum molestias,
                 necessitatibus nisi obcaecati perspiciatis quos reprehenderit sunt, tempora tenetur totam ut?</p>
 

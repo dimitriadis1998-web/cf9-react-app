@@ -1,5 +1,5 @@
 import {useState} from "react";
-import CounterButton from "../CounterButton.tsx";
+import CounterButton from "./CounterButton.tsx";
 
 const Counter = () => {
     const [counter , setCounter] = useState(0);

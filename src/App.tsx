@@ -1,9 +1,9 @@
 // import FunctionalComponent from "./components/LesssonTwo/FunctionalComponent.tsx";
-import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
+//import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 // import ClassComponent from "./components/LesssonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LesssonTwo/ArrowFunctionalComponent.tsx";
 import Layout from "./components/Layout.tsx";
-
+import Counter from "./components/LessonFour/Counter.tsx";
 
 // type PropsA = {
 //   title :string,
@@ -85,8 +85,10 @@ function App() {
             {/*    title="Second Title"*/}
             {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum cupiditate dolorem*/}
             {/*    earum inventore labore nemo, unde voluptate. Explicabo, voluptatum!" />*/}
-            <p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa debitis dolore ea excepturi illo illum itaque laborum molestias,
-                necessitatibus nisi obcaecati perspiciatis quos reprehenderit sunt, tempora tenetur totam ut?</p>
+            {/*<p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa debitis dolore ea excepturi illo illum itaque laborum molestias,*/}
+            {/*    necessitatibus nisi obcaecati perspiciatis quos reprehenderit sunt, tempora tenetur totam ut?</p>*/}
+            {/*C*/}
+            <Counter/>
 
         </Layout>
 

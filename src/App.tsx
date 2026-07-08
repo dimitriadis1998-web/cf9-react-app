@@ -8,6 +8,7 @@ import Layout from "./components/Layout.tsx";
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 // import NameChanger from "./components/LessonFive/NameChanger.tsx";
 import CounterWithCustomHook from "./components/LessonFive/CounterWithCustomHook.tsx";
+import WindowSize from "./components/LessonSix/WindowSize.tsx";
 
 
 
@@ -101,7 +102,8 @@ function App() {
 
         <Layout>
             {/*<NameChanger/>*/}
-            <CounterWithCustomHook/>
+            {/*<CounterWithCustomHook/>*/}
+            <WindowSize/>
         </Layout>
 
 

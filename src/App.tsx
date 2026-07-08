@@ -7,8 +7,9 @@ import Layout from "./components/Layout.tsx";
 // import Counter from "./components/LessonFour/Counter.tsx";
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 // import NameChanger from "./components/LessonFive/NameChanger.tsx";
-import CounterWithCustomHook from "./components/LessonFive/CounterWithCustomHook.tsx";
-import WindowSize from "./components/LessonSix/WindowSize.tsx";
+// import CounterWithCustomHook from "./components/LessonFive/CounterWithCustomHook.tsx";
+// import WindowSize from "./components/LessonSix/WindowSize.tsx";
+import FocusInput from "./components/LessonSix/FocusInput.tsx";
 
 
 
@@ -103,7 +104,8 @@ function App() {
         <Layout>
             {/*<NameChanger/>*/}
             {/*<CounterWithCustomHook/>*/}
-            <WindowSize/>
+            {/*<WindowSize/>*/}
+            <FocusInput/>
         </Layout>
 
 

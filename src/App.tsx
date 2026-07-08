@@ -11,7 +11,8 @@ import Layout from "./components/Layout.tsx";
 //  import {useEffect} from "react";
 // import counter from "./components/LessonFour/Counter.tsx";
 // import NameChangerWithTitle from "./components/LessonFive/NameChangerWithTitle.tsx";
-import AutoRedirect from "./components/LessonSix/AutoRedirect.tsx";
+// import AutoRedirect from "./components/LessonSix/AutoRedirect.tsx";
+import AutoRedirectAdvanced from "./components/LessonSix/AutoRedirectAdvanced.tsx";
 
 
 
@@ -121,7 +122,8 @@ function App() {
             {/*<NameChanger/>*/}
             {/*<CounterWithCustomHook/>*/}
             {/*<NameChangerWithTitle/>*/}
-            <AutoRedirect/>
+            {/*<AutoRedirect/>*/}
+            <AutoRedirectAdvanced/>
 
         </Layout>
 

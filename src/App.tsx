@@ -3,13 +3,14 @@
 // import ClassComponent from "./components/LesssonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LesssonTwo/ArrowFunctionalComponent.tsx";
 import Layout from "./components/Layout.tsx";
+import PreviousValue from "./components/LessonSix/PreviousValue.tsx";
 // import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
 // import Counter from "./components/LessonFour/Counter.tsx";
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 // import NameChanger from "./components/LessonFive/NameChanger.tsx";
 // import CounterWithCustomHook from "./components/LessonFive/CounterWithCustomHook.tsx";
 // import WindowSize from "./components/LessonSix/WindowSize.tsx";
-import FocusInput from "./components/LessonSix/FocusInput.tsx";
+// import FocusInput from "./components/LessonSix/FocusInput.tsx";
 
 
 
@@ -105,7 +106,8 @@ function App() {
             {/*<NameChanger/>*/}
             {/*<CounterWithCustomHook/>*/}
             {/*<WindowSize/>*/}
-            <FocusInput/>
+            {/*<FocusInput/>*/}
+            <PreviousValue/>
         </Layout>
 
 

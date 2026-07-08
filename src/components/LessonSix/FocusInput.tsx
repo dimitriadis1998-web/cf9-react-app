@@ -8,9 +8,9 @@ const FocusInput = () => {
         inputRef.current?.focus();
     }
 
-    // useEffect(() => {
-    //     inputRef.current?.focus();
-    // },[])
+    useEffect(() => {
+        inputRef.current?.focus();
+    },[])
 
     return (
         <>

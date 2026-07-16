@@ -2,8 +2,11 @@
 //import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 // import ClassComponent from "./components/LesssonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LesssonTwo/ArrowFunctionalComponent.tsx";
-import Layout from "./components/Layout.tsx";
-import PreviousValue from "./components/LessonSix/PreviousValue.tsx";
+// import Layout from "./components/Layout.tsx";
+// import PreviousValue from "./components/LessonSix/PreviousValue.tsx";
+// import {useEffect} from "react";
+import { Route, Routes} from "react-router";
+import NameChanger from "./components/LessonFive/NameChanger.tsx";
 // import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
 // import Counter from "./components/LessonFour/Counter.tsx";
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
@@ -11,6 +14,11 @@ import PreviousValue from "./components/LessonSix/PreviousValue.tsx";
 // import CounterWithCustomHook from "./components/LessonFive/CounterWithCustomHook.tsx";
 // import WindowSize from "./components/LessonSix/WindowSize.tsx";
 // import FocusInput from "./components/LessonSix/FocusInput.tsx";
+import HomePage from "./pages/HomePage.tsx"
+import Counter from "./components/LessonFour/Counter.tsx";
+import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
+// import Layout from "./components/Layout.tsx";
+import RouterLayout from "./components/RouterLayout.tsx";
 
 
 
@@ -68,9 +76,12 @@ import PreviousValue from "./components/LessonSix/PreviousValue.tsx";
 
 
 
-
-
 function App() {
+
+    //
+    // useEffect(() => {
+    //     history.pushState({},"","/about")
+    // }, []);
 
   return (
     <>
@@ -102,17 +113,46 @@ function App() {
         {/*    <CounterAdvanced/>*/}
         {/*</Layout>*/}
 
-        <Layout>
-            {/*<NameChanger/>*/}
-            {/*<CounterWithCustomHook/>*/}
-            {/*<WindowSize/>*/}
-            {/*<FocusInput/>*/}
-            <PreviousValue/>
-        </Layout>
+        {/*<Layout>*/}
+        {/*    /!*<NameChanger/>*!/*/}
+        {/*    /!*<CounterWithCustomHook/>*!/*/}
+        {/*    /!*<WindowSize/>*!/*/}
+        {/*    /!*<FocusInput/>*!/*/}
+        {/*    <PreviousValue/>*/}
+        {/*</Layout>*/}
+
+        {/*<Routes>*/}
+        {/*    <Route index element={<HomePage/>} />*/}
+        {/*    <Route path="name-changer" element = {<NameChanger />} />*/}
+        {/*    <Route path="counter" element = {<Counter />} />*/}
+        {/*    <Route path="counter-advanced" element = {<CounterAdvanced />} />*/}
+        {/*</Routes>*/}
+
+        <Routes>
+            <Route element={<RouterLayout/>}>
+             <Route index element={<HomePage/>} />
+              <Route path = "examples">
+              {/*<Route path = "examples?">*/}
+                <Route path="name-changer" element = {<NameChanger />} />
+                <Route path="counter" element = {<Counter />} />
+                <Route path="counter-advanced" element = {<CounterAdvanced />} />
+             </Route>
+            </Route>
 
 
+            {/*<Route path="users">*/}
+            {/*    <Route index element={<UserListPage />} />*/}
+            {/*    <Route path=":userId" element={<UserPage />} />*/}
+            {/*</Route>*/}
 
+            {/*<Route path="files/*" element={<File />} />*/}
 
+            {/*let params = useParams();*/}
+            {/*let filepath = params["*"]*/}
+
+            {/*<Route path="*" element={<NotFoundPage />} />*/}
+
+        </Routes>
 
     </>
 
